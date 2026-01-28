@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top, #020617, #000);
+  color: #e5e7eb;
+}
+
+/* NAV */
+.navbar {
+  padding: 30px 50px;
+}
+
+.navbar a {
+  color: #22d3ee;
+  font-weight: 600;
+}
+
+/* HERO */
+.bbtv-hero {
+  max-width: 900px;
+  margin: 120px auto 80px;
+  text-align: center;
+}
+
+.tag {
+  display: inline-block;
+  background: rgba(34, 211, 238, 0.15);
+  color: #22d3ee;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+}
+
+.bbtv-hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.bbtv-hero p {
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+/* PREVIEW */
+.preview {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.preview img {
+  width: 100%;
+  border-radius: 28px;
+  box-shadow: 0 40px 80px rgba(0,0,0,0.6);
+}
+
+/* SPLIT */
+.split {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 120px auto;
+  padding: 0 20px;
+}
+
+.glass {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(16px);
+  padding: 40px;
+  border-radius: 26px;
+}
+
+.glass h3 {
+  margin-bottom: 15px;
+}
+
+/* METRICS */
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 120px auto;
+}
+
+.metric {
+  text-align: center;
+}
+
+.metric h2 {
+  font-size: 2rem;
+  color: #22d3ee;
+}
+
+/* TECH */
+.tech {
+  text-align: center;
+  margin: 120px auto;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.tech-list span {
+  background: rgba(255,255,255,0.06);
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* GALLERY */
+.gallery {
+  max-width: 1100px;
+  margin: 120px auto;
+  padding: 0 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.back {
+  color: #22d3ee;
+  font-weight: 600;
+}
