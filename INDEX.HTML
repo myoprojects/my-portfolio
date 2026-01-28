@@ -4,41 +4,69 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mylene | Full Stack Developer</title>
-  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font (modern trend) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <!-- HERO SECTION -->
   <header class="hero">
     <h1>Hi, I’m Mylene 👋</h1>
-    <h2>Full Stack Developer</h2>
+    <h2>
+      <span id="typing"></span>
+    </h2>
     <p>
-      Fresh graduate with experience building real-world systems using
-      JavaScript, Python, Flask, MySQL, and computer vision.
+      Fresh graduate and aspiring Full Stack Developer who builds
+      real-world web applications and AI-powered systems with clean,
+      scalable code.
     </p>
+
+    <a href="#projects" class="btn">View My Work</a>
   </header>
 
-  <section class="projects">
+  <!-- PROJECTS SECTION -->
+  <section class="projects" id="projects">
     <h3>Featured Project</h3>
+
     <div class="project-card">
       <h4>Vision-Based BBTV Detection System</h4>
       <p>
-        A full-stack system using YOLOv5 and Raspberry Pi to detect Banana
-        Bunchy Top Virus in real time. Includes a Flask backend, database
-        logging, and web interface.
+        A full-stack computer vision system that detects Banana Bunchy
+        Top Virus using YOLOv5 and Raspberry Pi. Includes a Flask backend,
+        REST API, MySQL database, and responsive web interface for
+        real-time and image-based detection.
       </p>
+      <p><strong>Tech:</strong> Python, Flask, YOLOv5, MySQL, HTML, CSS, JavaScript</p>
     </div>
   </section>
 
+  <!-- SKILLS SECTION -->
   <section class="skills">
     <h3>Skills</h3>
     <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Python, Flask</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Flask</li>
       <li>MySQL</li>
       <li>Git & GitHub</li>
       <li>Computer Vision (YOLOv5)</li>
     </ul>
   </section>
 
+  <!-- FOOTER -->
+  <footer style="text-align:center; padding:40px 20px; opacity:0.7;">
+    © 2026 Mylene · Full Stack Developer
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
