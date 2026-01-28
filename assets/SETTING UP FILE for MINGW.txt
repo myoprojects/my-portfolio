@@ -1,0 +1,11 @@
+SETTING UP FILE for MINGW
+
+ cd ~/Desktop/PORTFOLIO
+
+git status
+
+EVERYTIME WE CHANGED A FILE
+git status
+git add .
+git commit -m "Describe what I changed"
+git push
