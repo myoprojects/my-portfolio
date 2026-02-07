@@ -150,3 +150,77 @@ footer {
   color: #22d3ee;
   font-weight: 600;
 }
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tech-item {
+  position: relative;
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.12);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.tech-item:hover {
+  transform: translateY(-3px);
+}
+
+/* Tooltip */
+.tech-item::after {
+  content: attr(data-info);
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #111;
+  color: white;
+  font-size: 13px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+.tech-item:hover::after {
+  opacity: 1;
+}
+.project-links {
+  margin-top: 30px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.demo-btn,
+.code-btn {
+  padding: 12px 22px;
+  border-radius: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.demo-btn {
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
+  
+}
+
+.code-btn {
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.demo-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(34,211,238,0.4);
+}
+
+.code-btn:hover {
+  background: rgba(255,255,255,0.22);
+}

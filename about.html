@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>About Me | Mylene</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="about.css" />
 
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <!-- NAVBAR -->
@@ -19,44 +21,143 @@
     <a href="index.html" class="nav-link">← Back to Home</a>
   </nav>
 
-  <!-- ABOUT SECTION -->
+  <!-- ABOUT HERO -->
   <section class="about-hero">
+
     <img src="assets/me.jpg" alt="Mylene Profile" class="profile-img">
 
     <div class="about-text">
-      <h1>About Me</h1>
-      <p>
-        I’m Mylene, a fresh graduate and aspiring Full Stack Developer with
-        a strong interest in building real-world applications, modern UI,
-        and AI-powered systems. I enjoy turning ideas into functional,
-        user-friendly solutions and continuously learning new technologies.
+      <h1>Full Stack Developer — Project-Driven Builder</h1>
+
+      <p class="about-lead">
+        Fresh graduate focused on building real-world full stack applications.
+        I specialize in API-driven systems, responsive UI, and deployed web apps —
+        not just tutorials, but working products.
       </p>
+
+      <!-- credibility chips -->
+      <div class="credibility">
+        <span>✔️ Deployed Apps</span>
+        <span>✔️ Full Stack Projects</span>
+        <span>✔️ API + Database</span>
+        <span>✔️ Version Controlled</span>
+      </div>
+
+      <!-- skill tags -->
+      <div class="hero-tags">
+        <span>MERN Stack</span>
+        <span>REST APIs</span>
+        <span>MongoDB</span>
+        <span>Express</span>
+        <span>Node</span>
+        <span>Frontend UI</span>
+      </div>
+
+      <div class="about-links">
+        <a href="https://github.com/yourgithub" target="_blank" class="btn-sm">GitHub</a>
+        <a href="projects.html" class="btn-sm">View Projects</a>
+        <a href="assets/OBEJERO CV.pdf" class="btn-sm" download>Download Resume</a>
+      </div>
+
     </div>
   </section>
 
-  <!-- CV SECTION -->
+  <!-- QUICK STATS -->
+  <section class="snapshot">
+    <h2>Quick Profile</h2>
+    <ul>
+      <li>🎓 Graduate — 2025</li>
+      <li>💻 Focus — Full Stack Development</li>
+      <li>🚀 Built & Deployed Web Apps</li>
+      <li>🧠 Continuous Self-Learning</li>
+      <li>⚡ Fast Technical Adaptation</li>
+    </ul>
+  </section>
+
+  <!-- WHAT I BUILD -->
+  <section class="build-section">
+    <h2>What I Deliver</h2>
+
+    <div class="build-grid">
+      <div>CRUD Application Systems</div>
+      <div>REST API Backends</div>
+      <div>Database-Driven Apps</div>
+      <div>Responsive Interfaces</div>
+      <div>Dashboard Tools</div>
+      <div>Cloud Deployment</div>
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section class="tech-stack">
+    <h2>Core Tech Stack</h2>
+
+    <div class="stack">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Node.js</span>
+      <span>Express</span>
+      <span>MongoDB</span>
+      <span>Git</span>
+      <span>Vercel</span>
+      <span>Render</span>
+    </div>
+  </section>
+
+  <!-- CURRENT PROJECT -->
+  <section class="now-building">
+    <h2>Currently Building</h2>
+    <p>
+      A full-stack Job Tracker platform with API backend, persistent database,
+      deployment pipeline, and dashboard interface — designed as a production-style system.
+    </p>
+  </section>
+
+  <!-- DEV PHILOSOPHY -->
+  <section class="philosophy">
+    <blockquote>
+      “I focus on building working systems — not just writing code,
+      but delivering usable software.”
+    </blockquote>
+  </section>
+
+  <!-- JOURNEY -->
+  <section class="timeline">
+    <h2>Development Journey</h2>
+    <ul>
+      <li>2025 — Graduated</li>
+      <li>2026 — Built Full Stack Job Tracker System</li>
+      <li>2026 — Backend + Deployment Focus</li>
+      <li>2026 — Advancing React + System Design</li>
+    </ul>
+  </section>
+
+  <!-- RESUME -->
   <section class="cv-section">
-    <h2>My Resume</h2>
+    <h2 class="cv-title">Resume</h2>
+    <p class="cv-sub">Click image to view full size</p>
 
-    <div class="cv-container">
-      <iframe src="assets/OBEJERO CV.pdf"></iframe>
-    </div>
+    <a href="assets/Obejero_CV.jpg" target="_blank" class="resume-frame">
+      <img src="assets/Obejero_CV.jpg" alt="Mylene Resume">
+    </a>
 
-    <a href="assets/OBEJERO CV.pdf" class="btn" download>Download CV</a>
+    <a href="assets/Obejero_CV.jpg" download class="btn">
+      Download Resume
+    </a>
   </section>
 
-  <!-- GALLERY -->
-  <section class="gallery">
-    <h2>Gallery</h2>
-
-    <div class="gallery-grid">
-      <img src="assets/me.jpg" alt="Photo 1">
-      <img src="assets/me.jpg" alt="Photo 2">
-      <img src="assets/me.jpg" alt="Photo 3">
-    </div>
+  <!-- WORK STYLE -->
+  <section class="skills-soft">
+    <h2>How I Work</h2>
+    <ul>
+      <li>Debug systematically, not randomly</li>
+      <li>Read docs before guessing</li>
+      <li>Ship → test → refine workflow</li>
+      <li>Learn tools fast under pressure</li>
+    </ul>
   </section>
 
-  <!-- FOOTER -->
   <footer>
     © 2026 Mylene · Full Stack Developer
   </footer>
